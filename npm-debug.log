@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node@6/6.14.2/bin/node',
+1 verbose cli   '/usr/local/opt/node@6/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.2
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle webpack.babel-sass@1.0.0~predev: webpack.babel-sass@1.0.0
+6 silly lifecycle webpack.babel-sass@1.0.0~predev: no script for predev, continuing
+7 info lifecycle webpack.babel-sass@1.0.0~dev: webpack.babel-sass@1.0.0
+8 verbose lifecycle webpack.babel-sass@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle webpack.babel-sass@1.0.0~dev: PATH: /usr/local/Cellar/node@6/6.14.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/abyrne/projects-dev/webpack.babel-sass/node_modules/.bin:/usr/local/Cellar/node@6/6.14.2/bin:/usr/local/opt/node@6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/munki
+10 verbose lifecycle webpack.babel-sass@1.0.0~dev: CWD: /Users/abyrne/projects-dev/webpack.babel-sass
+11 silly lifecycle webpack.babel-sass@1.0.0~dev: Args: [ '-c', 'webpack-dev-server  --config webpack.config.dev.js' ]
+12 silly lifecycle webpack.babel-sass@1.0.0~dev: Returned: code: 1  signal: null
+13 info lifecycle webpack.babel-sass@1.0.0~dev: Failed to exec dev script
+14 verbose stack Error: webpack.babel-sass@1.0.0 dev: `webpack-dev-server  --config webpack.config.dev.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/Cellar/node@6/6.14.2/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/Cellar/node@6/6.14.2/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid webpack.babel-sass@1.0.0
+16 verbose cwd /Users/abyrne/projects-dev/webpack.babel-sass
+17 error Darwin 16.7.0
+18 error argv "/usr/local/Cellar/node@6/6.14.2/bin/node" "/usr/local/opt/node@6/bin/npm" "run" "dev"
+19 error node v6.14.2
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error webpack.babel-sass@1.0.0 dev: `webpack-dev-server  --config webpack.config.dev.js`
+22 error Exit status 1
+23 error Failed at the webpack.babel-sass@1.0.0 dev script 'webpack-dev-server  --config webpack.config.dev.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the webpack.babel-sass package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server  --config webpack.config.dev.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs webpack.babel-sass
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls webpack.babel-sass
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

@@ -1,0 +1,36 @@
+@import '../module_home/home.scss' ;
+
+/*
+*   Add styles in folders or just files.
+*   The build will collate all files and combine.
+*   this is the easiest way to handle this process.
+*/
+
+body{ 
+
+    margin:0;
+    background-color: #eee; 
+    color: #000;    
+
+    .wrapper{
+        margin:auto;
+        width: 80%;
+    }
+
+    header{
+        background-color: #333;
+        color: #fff;
+
+        #title{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #eee;
+            padding:1rem;
+        }
+    } 
+    
+    section.dark{
+        background-color: #333;
+        color: #fff; 
+    }
+
+}
